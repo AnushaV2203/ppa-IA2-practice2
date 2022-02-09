@@ -1,1 +1,13 @@
+ 
+ gcc -g p2original.c
+ ./a.out
+enter the side o triangle
+4
+enter the side o triangle
+6
+enter the side o triangle
+8
+the given triangle is scalene 
+
+
 
