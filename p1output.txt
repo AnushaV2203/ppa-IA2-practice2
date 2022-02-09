@@ -1,1 +1,7 @@
-
+gcc -g p1original.c
+./a.out
+enter the base
+4
+enter the height
+6
+4.000000 6.000000 is 12.000000
