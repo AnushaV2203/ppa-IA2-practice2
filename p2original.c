@@ -8,13 +8,13 @@ int input_side()
 }
 int check_scalene(int a,int b,int c)
 {
-  if(a==b && b==c && c==a)
-  printf("the given triangle is eqilateral");
-  else if(a==b || b==c||c==a)
-  printf("the given triangle is isosceles");
-  else
-  printf("the given triangle is scalene");
-}
+  if (a != b && a != c && b != c)
+  {
+    return 1;
+  }
+  return 0;
+  }
+
 void output(int a,int b,int c,int isscalene)
 {
   printf("%d %d %d is %d",a,b,c,isscalene);
